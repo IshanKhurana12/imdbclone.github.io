@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary" id="nav">
+     
+        <div class="container-fluid">
+           
+        
+          <form class="d-flex" role="search">
+         
+            <a class="navbar-brand" href="#">
+                <img  id="logo"href="index.html" src="assets/logo.png" alt="Bootstrap" width="50" height="35">
+              </a>
+            <input type="search" placeholder="search" id="search-button" onkeyup="findMovies()">
+          
+              <button id="favour" type="button">favourites</button>
+             
+        </form>
+
+        </div>
+       
+      </nav>
+
+<!--
+    courousal its just for showing no clicking works here
+-->
+<div id="carousel">
+
+    <a href="" class="navigation previous">&laquo;</a>
+    <a href="" class="navigation next">&raquo;</a>
+
+    <ul>
+        <li id="lists" aria-placeholder="Harry Potter" ><img id="li-1" src="poster1.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="Airlift"><img id="li-2" src="poster2.jpg" alt=""></li>
+        <li id="lists"  aria-placeholder="Avengers"><img id="li-3" src="poster3.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="moonlight"><img id="li-4" src="poster4.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="master"><img id="li-5" src="poster5.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="elvis"><img id="li-6" src="poster6.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="joker"><img id="li-2" src="poster7.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="archer"><img id="li-2" src="poster9.jpg" alt=""></li>
+        <li id="lists" aria-placeholder="talvar"><img id="li-2" src="poster8.jpg" alt=""></li>
+    </ul>
+</div>
+<script src="modernizr.js"></script>	
+		<script src="common.js"></script>
+
+        <br>
+
+      <div id="container">
+        <!-- add poster images of movies
+        
+        
+        <div id="image-container">
+            <img src="" alt="poster">
+            <div id="info">
+                <h1>info related to movies</h1>
+            </div>   
+        </div>
+
+
+        
+        -->
+
+      </div>
+
+
+
+
+
+      <div id="single-movie-container">
+<!--
+
+
+    template for movie page ==>
+
+
+        <img src="${}">
+
+
+        <h1>Title: ${}</h1>
+
+        <h1>Year: ${}</h1>
+
+
+        <h1>Reted: ${}</h1>
+        <h1>Released: ${}</h1>
+        <h1>Runtime: ${}</h1>
+        <h1>Genre: ${}</h1>
+        <h1>Director: ${}</h1>
+        <h1>Writer: ${}</h1>
+        <h1>Actors: ${}</h1>
+
+        <h1>Plot: ${}</h1>
+        <h1>Language: ${}</h1>
+        <h1>country: ${}</h1>
+        <h1>Awards: ${}</h1>
+        <h1>Title: ${}</h1>
+
+
+<button id="favourite">Add To favourites</button>
+
+        
+-->
+
+
+    
+      </div>
+
+<div id="favTemp">
+  
+<!--
+    favourite movies template==>
+  <div id="final">
+            <img src="${}" alt="">
+            <h1>${}</h1>
+            <h1>${}</h1>
+            <h1>${}</h1>
+    </div>    
+-->
+</div>
+
+
+
+    <script src="main.js"></script>
+
+
+
+
+
+</body>
+</html>
